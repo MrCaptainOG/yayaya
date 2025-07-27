@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login" draggable="true">
+        <form action="profile/index.html" method="post">
+            <label for="email">Email ID : </label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" required>
+            <br><br><br>
+            <button type="submit">Login</button>
+            <br><br><br>
+        </form>
+        <button id="logswitch">Don't Have Any Account?</button>
+    </div>
+    <div id="signup" draggable="true">
+        <form action="profile/index.html" method="post">
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" required>
+            <br><br>
+            <label for="email">Email ID : </label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" required>
+            <br><br>
+            <button type="submit">Sign Up</button>
+            <br><br>
+        </form>
+        <button id="signswitch">Already Have An Account?</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
